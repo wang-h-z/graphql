@@ -21,7 +21,6 @@ const books = [
 	{ id: 8, name: 'Beyond the Shadows', authorId: 3 }
 ]
 
-// Define a basic schema
 const schema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: 'HelloWorld',
